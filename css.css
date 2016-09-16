@@ -1,0 +1,231 @@
+/* Game Barrel: */
+h1 {
+  font-family: EurostileBold;
+  font-size: 32px;
+  color: #8B572A;
+  display: inline-block;
+  position:relative;
+  bottom:10px;
+
+
+}
+
+#banner{
+  background: #50E3C2;
+  height: 50px;
+}
+#logo{
+  height:40px;
+  padding-left:10px;
+
+}
+#giraffe{
+
+  height: 47px;
+  position: absolute;
+  left: 900px;
+  padding-top:3px;
+}
+#nav{
+  display: inline;
+  float:right;
+  position:relative;
+  top:20px;
+}
+h3{
+font-family: EurostileBold;
+font-size: 15px;
+color: #8B572A;
+line-height: 20px;
+display:inline;
+padding:20px;
+
+}
+
+#mainsky{
+  width:98%;
+  margin:20px;
+  z-index:-1;
+}
+
+h2{
+font-family: HanziPenTC-W5;
+font-size: 50px;
+color: #8B572A;
+z-index:1;
+display: inline-block;
+position: absolute;
+top:25%;
+margin-left:40%;
+}
+
+
+}
+
+#ranktitle{
+  padding: 10px 20px 10px 20px;
+  font-family: EurostileBold;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: inline;
+  position: relative;
+  top:30%;
+  margin-left:48%;
+  background: #88B9F2;
+  border-radius: 100px;
+}
+
+#ranktable{
+  padding: 10px 20px 10px 20px;
+  display: inline;
+  position: absolute;
+  font-family: EurostileBold;
+  color: rgb(87,148,220);
+  top:40%;
+  margin-left:40%;
+  border-radius: 100px;
+}
+
+#playerrank{
+  position: absolute;
+  font-family: EurostileBold;
+  color: #8B572A;
+  top:30%;
+  margin-left:37%;
+  font-size:30px;
+ 
+
+}
+#rank{
+  padding: 10px 20px 10px 20px;
+  font-family: EurostileBold;
+  font-size: 24px;
+  color: #4A90E2;
+  display: inline;
+  position: absolute;
+  top:70%;
+  margin-left:41%;
+  background: #F4D202;
+  border-radius: 100px;
+  z-index:1;
+}
+#start{
+padding: 10px 20px 10px 20px;
+font-family: EurostileBold;
+font-size: 30px;
+color: #FFFFFF;
+display: inline;
+position: absolute;
+top:50%;
+margin-left:40%;
+background: #7184BB;
+border-radius: 100px;
+z-index:2;
+}
+
+#rocket{
+  position:absolute;
+  top:70%;
+  margin-left:70%;
+  height:220px;
+  z-index:1;
+
+}
+
+#over{
+  /* GAME OVER: */
+font-family: EurostileBold;
+font-size: 100px;
+color: #8B572A;
+position:absolute;
+top:20%;
+left:28%;
+z-index: 1;
+}
+#showScore{
+font-family: EurostileBold;
+font-size: 50px;
+color: rgb(87,148,220);
+position:absolute;
+top:17%;
+left:33%;
+z-index: 1;
+}
+
+#enter{
+font-family: EurostileBold;
+font-size: 40px;
+color: #50E3C2;
+position:absolute;
+top:43%;
+left:30%;
+z-index: 1;
+}
+
+#seerankbutton{
+  padding: 10px 20px 10px 20px;
+  font-family: EurostileBold;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: inline;
+  position: absolute;
+  top:66%;
+  margin-left:39%;
+  background: #50E3C2;
+  border: 8px solid #50E3C2;
+  border-radius:100px;
+  z-index:1;
+}
+#seerankbutton:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+#namebox{
+  position:absolute;
+  top:57%;
+  left:40%;
+  width: 150px;
+  padding: 10px 20px 10px 20px;
+  font-family: EurostileBold;
+  font-size: 24px;
+  color: blue;
+  display: inline;
+  background: #FFFFFF;
+  border: 3px solid #50E3C2;
+  border-radius:100px;
+  z-index:1;
+
+}
+
+#rocket{
+  position:absolute;
+  top:60%;
+  margin-left:70%;
+  height:220px;
+  z-index:1;
+
+}
+
+#rocket {
+    -webkit-border-radius: 30px;
+    position: absolute;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.5, 0.5); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+}
+
+#start:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+#rank:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}

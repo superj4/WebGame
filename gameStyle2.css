@@ -1,0 +1,122 @@
+/* Game Barrel: */
+h1 {
+  font-family: EurostileBold;
+  font-size: 32px;
+  color: #8B572A;
+  display: inline-block;
+  position:relative;
+  bottom:10px;
+}
+
+#banner{
+  background: #50E3C2;
+  height: 50px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 2;
+}
+
+#giraffe{
+
+  height: 47px;
+  position: absolute;
+  left: 900px;
+  padding-top:3px;
+}
+
+h3{
+font-family: EurostileBold;
+font-size: 15px;
+color: #8B572A;
+line-height: 20px;
+display:inline;
+padding:20px;
+
+}
+
+h2{
+font-family: EurostileBold;
+font-size: 50px;
+color: #8B572A;
+z-index:1;
+display: inline-block;
+position: absolute;
+top:210px;
+margin-left:430px;
+}
+#info{
+  border-bottom: 5px solid white;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  z-index:2;
+  background-image: url(mainsky-top.png);
+  border-top-right-radius: 90px;
+  height:180px;
+}
+#test{
+  font-family: EurostileBold;
+  font-size:50px;
+  margin-left:40%;
+  position: absolute;
+  padding:5px;
+  color:rgb(87,148,220);
+}
+#popup{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#info form{
+  text-align: center;
+  font-size: 20px;
+  color:rgb(87,148,220);
+  font-family: EurostileBold;
+  /*padding-bottom: 10px;*/
+}
+input[type=button]{
+  width:100px;
+  margin: 4px 2px;
+  font-weight:bold;
+  font-size:20px;
+  background-color: rgb(225,141,135);
+  border:none;
+  color:white;
+  cursor:pointer;
+  height:30px;
+  border-radius: 5px;
+}
+input[type=text]{
+  padding-left: 20px;
+  height:25px;
+  width:20px;
+  border-radius: 5px;
+}
+
+.main{
+  background-color: rgb(185,218,233);
+  width:100%;
+  overflow: hidden;
+  margin-top: 10px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  position: absolute;
+  top:220px;
+}
+.con img{
+  padding:20px;
+  padding-left:35px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+.con{
+  width:94%;
+  margin:0 auto;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
